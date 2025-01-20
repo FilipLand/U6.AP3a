@@ -9,10 +9,10 @@ public class Util {
     boolean Funciona;
 
     public Util(String marca, String modelo, int antiguedad, int caballos, int revoluciones, boolean funciones) {
-        Marca = marca;
-        Modelo = modelo;
-        Antiguedad = antiguedad;
-        Caballos = caballos;
+        this.Marca = marca;
+        this.Modelo = modelo;
+        this.Antiguedad = antiguedad;
+        this.Caballos = caballos;
         this.revoluciones = revoluciones;
         Funciona = funciones;
     }
