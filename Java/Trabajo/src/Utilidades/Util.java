@@ -14,7 +14,7 @@ public class Util {
         this.Antiguedad = antiguedad;
         this.Caballos = caballos;
         this.revoluciones = revoluciones;
-        Funciona = funciones;
+        this.Funciona = funciones;
     }
 
     public String getMarca() {
