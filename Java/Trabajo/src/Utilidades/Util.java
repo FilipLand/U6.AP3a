@@ -64,4 +64,16 @@ public class Util {
     public void setFunciona(boolean funciona) {
         Funciona = funciona;
     }
+
+    @Override
+    public String toString() {
+        return "Util{" +
+                "Marca='" + Marca + '\'' +
+                ", Modelo='" + Modelo + '\'' +
+                ", Antiguedad=" + Antiguedad +
+                ", Caballos=" + Caballos +
+                ", revoluciones=" + revoluciones +
+                ", Funciona=" + Funciona +
+                '}';
+    }
 }
